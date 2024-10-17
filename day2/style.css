@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+}
+
+body {
+    background-image: url('https://img.freepik.com/free-photo/photorealistic-view-tree-nature-with-branches-trunk_23-2151478084.jpg?t=st=1727937355~exp=1727940955~hmac=1c1e30b75aabe305ae719bd1ac96dbc69e9051c57231eccc6bb1f9dcab9f9129&w=900');
+    background-size: cover;
+    background-position: center;
+}
+
+input {
+    border: 2px solid transparent; 
+    border-radius: 4px!important;
+    transition: border-color 0.3s ease; 
+}
+
+input:hover {
+    border-color: gold; 
+}
+.form-select option{
+    background-color: gold;
+    color: black;
+}
+.container {
+    background-color: rgba(49, 100, 15, 0.7); 
+    margin: 10px auto; 
+    max-width: 800px; 
+    border-radius: 8px; 
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); 
+}
+
+.submit_button {
+    color: rgba(12, 59, 22, 1);
+    background-color: white;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.submit_button:hover {
+    color: rgba(12, 59, 22, 1);
+    background-color: gold;
+}
+
+@media (max-width: 486px) {
+    .container {
+        max-width: 600px; 
+        margin: 100px auto; 
+    }
+}

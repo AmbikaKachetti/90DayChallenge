@@ -1,0 +1,129 @@
+/* Contact Us Container */
+.contact_us_container {
+    max-width: 600px; /* Max width for the form */
+    margin: 2rem auto; /* Center align the form */
+    border-radius: 8px;
+    box-shadow: 0 4px 20px #0000001a; /* Shadow effect */
+    background-color: #103514; /* Background color */
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    color: white;
+}
+.contact_us_container .success_message{
+    color: yellow;
+}
+/* Title */
+.contact_us_container h1 {
+    font-size: 28px;
+    margin-bottom: 1rem; /* Space below the title */
+    text-align: center; /* Center the title */
+    color: #fff; /* Dark text color */
+}
+
+/* Form Group */
+.form_group {
+    margin-bottom: 1rem; /* Space below each form group */
+}
+
+/* Labels */
+.form_group label {
+    text-align: left;
+    display: block; /* Block-level label */
+    margin-bottom: 0.5rem; /* Space below label */
+    color: #fff; /* Lighter text color */
+}
+
+/* Input Fields */
+.form_group input,
+.form_group textarea {
+    width: 95%; /* Full width */
+    padding: 0.8rem; /* Padding for inputs */
+    border: 1px solid #ddd; /* Border color */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+    transition: border-color 0.3s; /* Transition effect for border color */
+}
+
+/* Focus State */
+.form_group input:focus,
+.form_group textarea:focus {
+    border-color: #007bff; /* Change border color on focus */
+    outline: none; /* Remove default outline */
+}
+
+/* Error Message */
+.error {
+    color: red; /* Red for error messages */
+    font-size: 14px; /* Font size for error messages */
+    font-weight: bold;
+}
+
+/* Submit Button */
+button[type='submit'] {
+    width: 30%; /* Full width button */
+    padding: 0.8rem; /* Padding for button */
+    background-color: #93951e; /* Primary button color */
+    color: white; /* Text color */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer cursor */
+    transition: background-color 0.3s; /* Transition effect */
+}
+
+/* Button Hover State */
+button[type='submit']:hover {
+    background-color: #636414; /* Darker shade on hover */
+}
+
+/* Thank You Message */
+.contact_us_container p {
+    color: #1a331d; /* Green for success message */
+    text-align: center; /* Center align */
+}
+
+/* Go to Home Button */
+.contact_go_to_home_btn {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem; /* Space above the button */
+    display: block; /* Block level for centering */
+    width: 30%; /* Full width */
+    padding: 0.8rem; /* Padding */
+    background-color: #1a331d; /* Green color */
+    color: white; /* Text color */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+    text-align: center; /* Center align text */
+    cursor: pointer; /* Pointer cursor */
+    transition: background-color 0.3s; /* Transition effect */
+}
+
+/* Button Hover State */
+.contact_go_to_home_btn:hover {
+    background-color: #103514; /* Darker shade on hover */
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 600px) {
+    .contact_us_container {
+        padding: 1rem; /* Less padding on smaller screens */
+    }
+
+    .contact_us_container h1 {
+        font-size: 24px; /* Smaller title */
+    }
+
+    .form_group input,
+    .form_group textarea,
+    button[type='submit'],
+    .contact_go_to_home_btn {
+        font-size: 14px; /* Smaller font for buttons */
+    }
+}

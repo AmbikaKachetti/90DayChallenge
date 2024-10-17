@@ -1,0 +1,97 @@
+.cart_container {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 90%; /* Set a width for the cart */
+    max-width: 800px; /* Set a max width for larger screens */
+    margin: auto; /* Center the cart on the page */
+    border: 1px solid #ddd; /* Optional: Add border around the cart */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    /* background: linear-gradient(280deg, #1a331d, #93951e); White background for contrast */
+    background-color: white;
+  }
+  
+  .cart_container h1 {
+    font-size: 24px;
+    margin-bottom: 20px; /* Adds space below the heading */
+}
+
+.cart_container ul {
+    list-style-type: none;
+    padding: 0;
+    width: 100%; /* Make sure the list takes full width */
+}
+
+.cart_container li {
+    display: flex;
+    align-items: center; /* Center align items vertically */
+    justify-content: space-between; /* Space between image and item details */
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: background-color 0.2s; /* Smooth background transition on hover */
+}
+
+.cart_container li:hover {
+    background-color: #f9f9f9; /* Highlight item on hover */
+}
+
+.cart_container img {
+    width: 100px; /* Fixed width for images */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 10px;
+}
+
+.cart_item_details {
+    flex-grow: 1; /* Allow this section to take up remaining space */
+}
+
+.cart_item_name {
+    font-weight: bold; /* Make item name bold */
+    margin-bottom: 5px; /* Space between name and price */
+}
+
+.cart_item_price {
+    color: #333; /* Price color */
+}
+
+.quantity_controls {
+    display: flex;
+    align-items: center;
+}
+
+.quantity_controls button {
+    padding: 5px 10px;
+    margin: 0 5px;
+    border: none;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.quantity_controls button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.cart_container button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.total_price {
+    margin-top: 20px;
+    text-align: right; /* Align to the right */
+    font-size: 20px;   /* Increase font size */
+    font-weight: bold;  /* Make the total price bold */
+    color: #333;        /* Price color */
+    width: 100%; /* Take full width */
+}

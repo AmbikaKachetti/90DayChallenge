@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style for the navigation bar */
+header {
+    background-color: #333;
+    padding: 15px;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul.nav_links {
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul.nav_links li {
+    margin: 0 15px;
+}
+
+header nav ul.nav_links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+header nav ul.nav_links li a:hover {
+    text-decoration: underline;
+}
+
+/* Styling for main container */
+.main_container {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.sign_container{
+    border: 1px solid gray;
+    border-radius: 50px;
+    padding: 30px;
+    background-color: #a34e4e;
+}
+
+/* Email container styles */
+.email_container {
+    text-align: left;
+    padding: 5px;
+    width: 100%;
+}
+
+.email_container input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid gray;
+}
+
+/* Password container styles */
+.password_container {
+    text-align: left;
+    padding: 5px;
+    width: 100%;
+}
+
+.password_container input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid gray;
+}
+
+/* Sign in button */
+.signin_button {
+    padding: 10px;
+    background-color: lightgreen;
+    border-radius: 12px;
+    margin-top: 16px;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+}
+
+.signin_button:hover {
+    background-color: #90ee90;
+}
+
+/* Adding some spacing between form elements */
+input, button {
+    margin-bottom: 10px;
+}

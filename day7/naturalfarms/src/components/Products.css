@@ -1,0 +1,101 @@
+.products {
+    background-color: #93951e;
+    display: flex;
+    flex-direction: row;
+    border-radius: 8px;
+    margin: 10px;
+    flex-wrap: wrap;
+    justify-content: center; /* Change this to center */
+}
+
+/* Styling for the product card container */
+.card {
+    width: 250px; /* Set a fixed width for the card */
+    border-radius: 8px; /* Rounded corners for the entire card */
+    margin: 10px; /* Space around the card */
+    overflow: hidden; /* Ensures content stays within the rounded corners */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    background-color: white; /* Ensure the background is visible */
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+    .card {
+        width: 55%; /* Make cards full width on small screens */
+        margin: 10px auto; /* Center the card with auto margins */
+    }
+}
+
+/* Styling for the card image section */
+.card_image {
+    position: relative;
+    width: 100%; /* Image container takes full width of the card */
+    height: 200px; /* Fixed height for the image container */
+}
+
+/* Styling for the image inside the card */
+.card_image img {
+    width: 100%; /* Image takes full width of its container */
+    height: 100%; /* Image takes full height of its container */
+    object-fit: cover; /* Ensures the image covers the container proportionally */
+    border-radius: 8px 8px 0 0; /* Rounded top corners for the image */
+}
+
+/* Styling for the offer label on the card image */
+.card_image span {
+    position: absolute; /* Positioned relative to the card_image container */
+    top: 10px; /* Positioned 10px from the top */
+    right: 10px; /* Positioned 10px from the right */
+    background-color: red; /* Red background for the offer label */
+    color: white; /* White text color for better readability */
+    padding: 5px 10px; /* Padding for the label */
+    border-radius: 5px; /* Slightly rounded corners for the label */
+    font-size: 14px; /* Font size for the label text */
+    font-weight: bold; /* Bold text for emphasis */
+}
+
+/* Styling for the card details section */
+.card_details {
+    padding: 15px;
+    background-color: #1a331d; /* Dark green background color */
+    color: #93951e; /* Yellowish-green text color */
+    text-align: left; /* Aligns text to the left */
+    border-radius: 0 0 8px 8px; /* Rounded bottom corners for the details section */
+}
+
+/* Flexbox for aligning the item name and rating side by side */
+.name_rating {
+    display: flex; /* Flexbox to align items horizontally */
+    justify-content: space-between; /* Space between name and rating */
+}
+
+/* Styling for the product name */
+.item_name h2 {
+    margin: 0; /* Remove margin for tight spacing */
+    font-size: 20px; /* Font size for the product name */
+    font-weight: bold; /* Bold text for emphasis */
+}
+
+/* Styling for the star rating */
+.fa-star {
+    color: gold; /* Gold color for star icons */
+}
+
+.products_container_heading {
+    color: white;
+    background-color: #1a331d;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 12px;
+    text-align: center;
+    font-size: 32px;
+}
+
+.add_to_cart_button {
+    color: #1a331d;
+    background-color: #93951e;
+    padding: 10px;
+    border-radius: 12px;
+    border: none;
+    font-weight: bold;
+}

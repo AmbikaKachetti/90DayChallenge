@@ -1,0 +1,99 @@
+.header_container {
+    display: flex;
+    justify-content: space-between; /* Distribute space between items */
+    align-items: center; /* Center items vertically */
+    padding: 10px 20px; /* Padding for the header */
+    /* background-color: #f8f8f8; Background color for visibility */
+    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+  }
+  
+  .logo h1 {
+    margin: 0; /* Remove default margin */
+  }
+  
+  .header_search {
+    flex: 1; /* Allow search bar to take remaining space */
+    max-width: 400px; /* Max width for the search bar */
+    margin: 0 20px; /* Margin for spacing */
+  }
+  
+  .search_bar {
+    display: flex; /* Flexbox for input and button */
+  }
+  
+  .search_bar input {
+    flex: 1; /* Input takes remaining space */
+    padding: 5px;
+  }
+  
+  .search_button {
+    padding: 5px 10px;
+  }
+  
+  .nav_links {
+    display: flex;
+    align-items: center; /* Center items vertically */
+    flex-wrap: wrap; /* Allow wrapping of links */
+  }
+  
+  .header_button {
+    margin: 0 10px; /* Spacing between buttons */
+    text-decoration: none; /* Remove underline from links */
+    /* color: #333; Text color */
+  }
+  
+  .cart {
+    display: flex;
+    align-items: center; /* Center items vertically */
+  }
+  
+  .cart_count {
+    margin-left: 5px; /* Space between icon and count */
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .header_container {
+      flex-direction: column; /* Stack items vertically */
+      align-items: flex-start; /* Align items to the left */
+    }
+  
+    .nav_links {
+      justify-content: center; /* Center nav links on small screens */
+    }
+  
+    .header_search {
+      max-width: 100%; /* Full width on smaller screens */
+    }
+    .logo h1 {
+        text-align: center;
+    }
+  }
+  .search_results {
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 200px; /* Adjust width as needed */
+    max-height: 200px; /* Limit height */
+    overflow-y: auto; /* Scroll if overflow */
+    z-index: 1000; /* Ensure it appears above other elements */
+  }
+  
+  .search_results ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .search_results li {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer; /* Change cursor on hover */
+  }
+  
+  .search_results li:hover {
+    background-color: #f0f0f0; /* Highlight on hover */
+  }
+  

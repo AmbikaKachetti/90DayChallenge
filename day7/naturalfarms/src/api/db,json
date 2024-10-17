@@ -1,0 +1,94 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "CORN",
+      "image": "../assets/productsAssets/corn_card.jpg",
+      "rating": 4.4,
+      "price": 23,
+      "farm": "AP Natural Farms",
+      "offer": false
+    },
+    {
+      "id": 2,
+      "name": "CUSTARD APPLE",
+      "image": "../assets/productsAssets/custard-apple_card.jpg",
+      "rating": 4.5,
+      "price": 52,
+      "farm": "TS Natural Farms",
+      "offer": true
+    },
+    {
+      "id": 3,
+      "name": "KIWI",
+      "image": "../assets/productsAssets/Kiwi_card.jfif",
+      "rating": 4.2,
+      "price": 30,
+      "farm": "AP Natural Farms",
+      "offer": false
+    },
+    {
+        "id": 4,
+        "name": "PINEAPPLE",
+        "image": "../assets/productsAssets/pineapple.jpg",
+        "rating": 4.5,
+        "price": 41,
+        "farm": "TS Natural Farms",
+        "offer": true
+    },
+    {
+        "id": 5,
+        "name": "DRAGON",
+        "image": "../assets/productsAssets/dragon.png",
+        "rating": 4.8,
+        "price": 60,
+        "farm": "Sunny Farms",
+        "offer": false
+    },
+    {
+        "id": 6,
+        "name": "GRAPE",
+        "image": "../assets/productsAssets/grape.png",
+        "rating": 4.6,
+        "price": 15,
+        "farm": "Tropical Farms",
+        "offer": true
+    },
+    {
+        "id": 7,
+        "name": "LIME",
+        "image": "../assets/productsAssets/Lime.png",
+        "rating": 4.7,
+        "price": 75,
+        "farm": "Himalayan Orchards",
+        "offer": false
+    },
+    {
+        "id": 8,
+        "name": "PEAR",
+        "image": "../assets/productsAssets/pear.png",
+        "rating": 4.3,
+        "price": 30,
+        "farm": "Citrus Farms",
+        "offer": true
+    },
+    {
+        "id": 9,
+        "name": "PLUM",
+        "image": "../assets/productsAssets/plum.png",
+        "rating": 4.5,
+        "price": 45,
+        "farm": "Vineyard Estates",
+        "offer": false
+    },
+    {
+        "id": 10,
+        "name": "POMOGRANATE",
+        "image": "../assets/productsAssets/pomogranate.png",
+        "rating": 4.9,
+        "price": 90,
+        "farm": "Berry Good Farms",
+        "offer": true
+    }
+    ]
+}

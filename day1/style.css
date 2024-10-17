@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+header{
+    background-color: #1a331d;
+    color: #ffffff;
+    width: 100vw;
+    /* position: sticky; */
+    top: 0;
+    flex-wrap: wrap;
+}
+.header_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.home_container{
+    background-image: url('https://img.freepik.com/free-photo/photorealistic-view-tree-nature-with-branches-trunk_23-2151478084.jpg?t=st=1727937355~exp=1727940955~hmac=1c1e30b75aabe305ae719bd1ac96dbc69e9051c57231eccc6bb1f9dcab9f9129&w=900');
+    /* background-image: url('https://img.freepik.com/free-photo/beautiful-view-green-fields-sunrise-captured-canggu-bali_181624-14146.jpg?t=st=1727952406~exp=1727956006~hmac=1c423f54a54bb4fe54973fc22283493c3095950f25e23c3355c5411b48d98d11&w=740'); */
+    /* background-image: url('./banner image.jpg'); */
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color:#ffffff;
+    font-size: 65px;
+}
+.home_container h1{
+    font-size: 120px;
+    color: #ffffff;
+}
+.header_search{
+
+    border: none;
+}
+.search_bar input{
+    height: 35px;
+    border-radius: 5px 0 0 5px;
+    width: 300px;
+    padding-left: 10px;
+}
+.search_bar input:hover{
+    border: 1px solid #93951e;
+}
+.search_bar i{
+    background-color: #93951e;
+    border-radius: 0 5px 5px 0;
+    padding: 10px;
+    border: none;
+}
+
+.navigation a{
+    padding: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 8px;
+    color: #ffffff;
+}
+.navigation a:hover{
+    background-color: #93951e;
+}
+.products_container{
+    background-color: #1a331d;
+    padding: 30px;
+}
+.products_container_heading{
+    background-color: #93951e;
+    color: white;
+    border-radius: 12px;
+    padding: 10px;
+    font-size: 32px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.products{
+    background-color: #93951e;
+    border: 8px;
+    padding: 30px;
+    color: #1a331d;
+    display: flex;
+    border-radius: 12px;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.card {
+    width: 250px;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+.card_image {
+    position: relative;
+    width: 100%;
+    height: 200px;
+}
+
+.card_image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+}
+
+.card_image span {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.card_details {
+    padding: 15px;
+    background-color: #1a331d;
+    color: #93951e;
+    text-align: left;
+    border-radius: 0 0 8px 8px;
+}
+
+.name_rating {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item_name h2 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.fa-star {
+    color: gold;
+}
+
+h1 {
+    margin: 10px 0;
+    font-size: 24px;
+}
+
+.footer_container{
+    height: 180px;
+    background-image: linear-gradient(to top right, #1a331d, #93951e);
+    border: 8px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    color: white;
+    justify-content: center;
+}
+
+@media (min-width: 701px) and (max-width: 900px){
+    .home_container h1{
+        color: gold;
+        font-size: 80px;
+    }
+}

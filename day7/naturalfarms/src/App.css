@@ -1,0 +1,178 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* Header Style */
+.header_container{
+  background-color: #1a331d;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.header_button{
+  border-radius: 12px;
+  padding: 10px;
+  border:none;
+  color: white;
+  text-decoration: none;
+}
+.header_button:hover {
+  background-color: #93951e;
+}
+
+/* Home Page Styling */
+.home_container{
+  background-image: url('https://img.freepik.com/free-photo/photorealistic-view-tree-nature-with-branches-trunk_23-2151478084.jpg?t=st=1727937355~exp=1727940955~hmac=1c1e30b75aabe305ae719bd1ac96dbc69e9051c57231eccc6bb1f9dcab9f9129&w=900');
+  background-size: cover;
+  height: 95vh;
+  display: flex;
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  color:#ffffff;
+}
+.home_container .home_origin{
+  font-size: 35px;
+  font-weight: bold;
+}
+.home_container .home_by{
+  font-size: 25px;
+}
+.home_container .home_name{
+  font-size: 85px;
+  color: #ffffff;
+  font-weight: bold;
+}
+/* Header Search bar */
+.header_search{
+  border: none;
+}
+.search_bar input{
+  height: 35px;
+  border-radius: 5px 0 0 5px;
+  width: 400px;
+  padding-left: 10px;
+}
+.search_bar input:hover{
+  border: 1px solid #93951e;
+}
+.search_bar{
+  border-radius: 0 5px 5px 0;
+  border: none;
+  outline: none;
+}
+.search_bar .search_button{
+  background-color: #93951e;
+  border-radius: 0 5px 5px 0;
+  color: white;
+  padding: 12px;
+  border: none;
+  outline: none;
+}
+button{
+  cursor: pointer;
+}
+/* Contact us Page styling */
+.contact_us_style, .footer_styling, .products_page_styling, .page_styling{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+/* signin page styling */
+.signin_page_styling{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+/* signup page styling */
+.signup_page_styling{
+  display: flex;
+  height: 70vh;
+}
+/* signuppage styling */
+.signup_page_styling{
+  align-items:center;
+  justify-content: center;
+}
+/* products page styling */
+.products_page_styling{
+  background-color: #93951e;
+  border-radius: 12px;
+  height: 80vh;
+  margin: 12px;
+}
+.contact_page_container{
+  height: 70vh;
+  align-items: center;
+}
+.contact_us_style{
+  background-color: #1a331d;
+  margin: 12px;
+  border-radius: 12px;
+  color: white;
+  height: 70vh;
+}
+.contact_go_to_home_btn{
+  padding: 10px;
+  background-color: #93951e;
+  color: white;
+  border-radius: 12px;
+  border: none;
+}
+/* Footer page Style */
+.footer_styling{
+  display: flex;
+  justify-content: flex-end;
+  height: 85vh;
+}
+.footer_container{
+  height: 140px;
+  background-image: linear-gradient(to top right, #1a331d, #93951e);
+  border: 8px;
+  width: 100%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  color: white;
+  justify-content: center;
+}
