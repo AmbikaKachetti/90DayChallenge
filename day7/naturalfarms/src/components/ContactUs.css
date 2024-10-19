@@ -1,10 +1,10 @@
 /* Contact Us Container */
 .contact_us_container {
-    max-width: 600px; /* Max width for the form */
-    margin: 2rem auto; /* Center align the form */
+    max-width: 600px; 
+    margin: 2rem auto; 
     border-radius: 8px;
-    box-shadow: 0 4px 20px #0000001a; /* Shadow effect */
-    background-color: #103514; /* Background color */
+    box-shadow: 0 4px 20px #0000001a; 
+    background-color: #103514;
     display: flex;
     text-align: center;
     flex-direction: column;
@@ -18,71 +18,71 @@
 /* Title */
 .contact_us_container h1 {
     font-size: 28px;
-    margin-bottom: 1rem; /* Space below the title */
-    text-align: center; /* Center the title */
-    color: #fff; /* Dark text color */
+    margin-bottom: 1rem; 
+    text-align: center; 
+    color: #fff; 
 }
 
 /* Form Group */
 .form_group {
-    margin-bottom: 1rem; /* Space below each form group */
+    margin-bottom: 1rem; 
 }
 
 /* Labels */
 .form_group label {
     text-align: left;
-    display: block; /* Block-level label */
-    margin-bottom: 0.5rem; /* Space below label */
-    color: #fff; /* Lighter text color */
+    display: block; 
+    margin-bottom: 0.5rem; 
+    color: #fff;
 }
 
 /* Input Fields */
 .form_group input,
 .form_group textarea {
-    width: 95%; /* Full width */
-    padding: 0.8rem; /* Padding for inputs */
-    border: 1px solid #ddd; /* Border color */
-    border-radius: 4px; /* Rounded corners */
-    font-size: 16px; /* Font size */
-    transition: border-color 0.3s; /* Transition effect for border color */
+    width: 95%; 
+    padding: 0.8rem;
+    border: 1px solid #ddd; 
+    border-radius: 4px; 
+    font-size: 16px; 
+    transition: border-color 0.3s; 
 }
 
 /* Focus State */
 .form_group input:focus,
 .form_group textarea:focus {
-    border-color: #007bff; /* Change border color on focus */
-    outline: none; /* Remove default outline */
+    border-color: #007bff; 
+    outline: none; 
 }
 
 /* Error Message */
 .error {
-    color: red; /* Red for error messages */
-    font-size: 14px; /* Font size for error messages */
+    color: red; 
+    font-size: 14px; 
     font-weight: bold;
 }
 
 /* Submit Button */
 button[type='submit'] {
-    width: 30%; /* Full width button */
-    padding: 0.8rem; /* Padding for button */
-    background-color: #93951e; /* Primary button color */
-    color: white; /* Text color */
-    border: none; /* No border */
-    border-radius: 4px; /* Rounded corners */
-    font-size: 16px; /* Font size */
-    cursor: pointer; /* Pointer cursor */
-    transition: background-color 0.3s; /* Transition effect */
+    width: 30%; 
+    padding: 0.8rem;
+    background-color: #93951e; 
+    color: white;
+    border: none; 
+    border-radius: 4px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
 }
 
 /* Button Hover State */
 button[type='submit']:hover {
-    background-color: #636414; /* Darker shade on hover */
+    background-color: #636414; 
 }
 
 /* Thank You Message */
 .contact_us_container p {
-    color: #1a331d; /* Green for success message */
-    text-align: center; /* Center align */
+    color: #1a331d; 
+    text-align: center;
 }
 
 /* Go to Home Button */
@@ -91,39 +91,39 @@ button[type='submit']:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 1rem; /* Space above the button */
-    display: block; /* Block level for centering */
-    width: 30%; /* Full width */
-    padding: 0.8rem; /* Padding */
-    background-color: #1a331d; /* Green color */
-    color: white; /* Text color */
-    border: none; /* No border */
-    border-radius: 4px; /* Rounded corners */
-    font-size: 16px; /* Font size */
-    text-align: center; /* Center align text */
-    cursor: pointer; /* Pointer cursor */
-    transition: background-color 0.3s; /* Transition effect */
+    margin-top: 1rem;
+    display: block; 
+    width: 30%; 
+    padding: 0.8rem; 
+    background-color: #1a331d; 
+    color: white; 
+    border: none; 
+    border-radius: 4px;
+    font-size: 16px; 
+    text-align: center; 
+    cursor: pointer; 
+    transition: background-color 0.3s;
 }
 
 /* Button Hover State */
 .contact_go_to_home_btn:hover {
-    background-color: #103514; /* Darker shade on hover */
+    background-color: #103514; 
 }
 
 /* Media Queries for Responsiveness */
 @media (max-width: 600px) {
     .contact_us_container {
-        padding: 1rem; /* Less padding on smaller screens */
+        padding: 1rem; 
     }
 
     .contact_us_container h1 {
-        font-size: 24px; /* Smaller title */
+        font-size: 24px; 
     }
 
     .form_group input,
     .form_group textarea,
     button[type='submit'],
     .contact_go_to_home_btn {
-        font-size: 14px; /* Smaller font for buttons */
+        font-size: 14px;
     }
 }

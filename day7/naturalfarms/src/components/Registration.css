@@ -1,0 +1,33 @@
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
+.form_title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2em;
+}
+
+.error-message {
+    color: gold;
+    font-size: 0.875em;
+}
+
+.submit_button {
+    background-color: #1a331d;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 12px;
+}
+
+.submit_button:hover {
+    background-color: #636414;
+    color: white;
+}
+
+.row.g-3 {
+    margin-top: 20px;
+}
